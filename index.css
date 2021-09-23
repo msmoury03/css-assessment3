@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(32, 24, 24);
+}
+
+.top{
+    justify-content: center;
+    
+}
+.heading{
+    
+    background-color: white;
+    height: 160px;
+    width: 28%;
+    margin-left: 35%;
+    border: 5px solid red;
+    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 5px purple;
+}
+
+.p1{
+    font-style: italic;
+    color: red;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.container{
+    border: 5px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    height: 660px;
+    
+}
+
+.heading1{
+    background-color: white;
+    height: 220px;
+    width: 18%;
+    
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 50px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 1px 1px 1px rgb(61, 5, 192);
+}
+
+.heading2{
+    background-color: white;
+    height: 220px;
+    width: 20%;
+    
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 150px;
+    position: absolute;
+    right: -100px;
+    box-shadow: 5px 5px 5px purple;
+    
+}
+.heading3{
+    background-color: white;
+    height: 270px;
+    width: 21%;
+    
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 150px;
+    position: absolute;
+    right: -100px;
+    top: 370px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 2px 2px 5px purple;
+}
+
+.heading4{
+    background-color: white;
+    height: 220px;
+    width: 18%;
+    
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 150px;
+    position: absolute;
+    left: 1px;
+    top: 300px;
+    box-shadow: 5px 5px 5px purple;
+    text-shadow: 1px 1px 1px rgb(61, 5, 192);
+}
+
+
+
+.p2{
+    
+    color: rgba(18, 77, 126, 0.698);
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+}
+
+.head1{
+    color: rgb(83, 27, 83);
+}
+
+.h22{
+    text-align: start;
+    color: rgba(18, 77, 126, 0.698)
+}
+
+.img1{
+    width: 200px;
+    align-items: center;
+    margin-top: 40px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.container2{
+    justify-content: center;
+    width: 50%;
+    height: 600px;
+    border: 5px solid purple;
+    margin-left: 25%;
+    background-color: green;
+    margin-top: 20px;
+    
+    
+}
+
+.box{
+    display: flex;
+    
+}
+
+.box2{
+    text-align: center;
+    background-color: rgb(167, 144, 46);
+    display: inline;
+    margin-right: 5px;
+    height: 240px;
+    width: 50%;
+    font-style: italic;
+    
+    
+}
+.box3{
+    text-align: center;
+    background-color: rgb(167, 144, 46);
+    display: inline-block;
+    width: 50%;
+    height: 240px;
+    font-style: italic;
+}
+
+.head10{
+    text-align: center;
+}
+
+.fruits{
+    line-height: 30px;
+}
+
+.box4{
+    text-align: center;
+    background-color: rgb(167, 144, 46);
+    display: inline-block;
+    width: 675px;
+    height: 260px;
+    font-style: italic;
+    margin-top: 10px;
+    
+}
+
+.msg{
+    background-color: rgb(207, 209, 53);
+    height: 70px;
+    width: 28%;
+    position: fixed;
+    bottom: 25px;
+    
+    left: 10px;
+    border: 5px solid red;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 440px;
+    color: red;
+    box-shadow: 5px 5px 5px purple;
+    font-style: italic;
+    display: flex;
+    
+    
+}  
+
+.msg2{
+    margin-top: 18px;
+    font-weight: 550;
+}
